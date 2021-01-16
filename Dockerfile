@@ -1,6 +1,6 @@
-FROM node:10
+FROM node:14
 
-WORKDIR /usr/src/app
+WORKDIR /Users/kishorepatra/Documents/works/practice/aws/docker-node-mongo
 
 COPY package*.json ./
 
